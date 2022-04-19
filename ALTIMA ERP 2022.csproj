@@ -371,6 +371,12 @@
     <Compile Include="Notificaciones\Notificaciones.Designer.cs">
       <DependentUpon>Notificaciones.cs</DependentUpon>
     </Compile>
+    <Compile Include="NuevaCarpeta\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NuevaCarpeta\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
     <Compile Include="Produccion\CatLargos\CatalogoLargos.cs">
       <SubType>Form</SubType>
     </Compile>
