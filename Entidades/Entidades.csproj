@@ -42,6 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CatalogoY\ECatalogoY.cs" />
     <Compile Include="Comercial\Precios\EPrecios.cs" />
     <Compile Include="Compras\EProveedor.cs" />
     <Compile Include="Compras\EProveedorContacto.cs" />

@@ -50,3 +50,16 @@ C:\DesarrolloTest\AltimaTest\Datos\obj\Debug\Datos.csproj.CoreCompileInputs.cach
 C:\DesarrolloTest\AltimaTest\Datos\obj\Debug\Datos.csproj.CopyComplete
 C:\DesarrolloTest\AltimaTest\Datos\obj\Debug\Datos.dll
 C:\DesarrolloTest\AltimaTest\Datos\obj\Debug\Datos.pdb
+D:\AltimaTest\AltimaTest\Datos\bin\Debug\Datos.dll
+D:\AltimaTest\AltimaTest\Datos\bin\Debug\Datos.pdb
+D:\AltimaTest\AltimaTest\Datos\bin\Debug\Entidades.dll
+D:\AltimaTest\AltimaTest\Datos\bin\Debug\FluentFTP.dll
+D:\AltimaTest\AltimaTest\Datos\bin\Debug\Renci.SshNet.dll
+D:\AltimaTest\AltimaTest\Datos\bin\Debug\Entidades.pdb
+D:\AltimaTest\AltimaTest\Datos\bin\Debug\FluentFTP.xml
+D:\AltimaTest\AltimaTest\Datos\bin\Debug\Renci.SshNet.xml
+D:\AltimaTest\AltimaTest\Datos\obj\Debug\Datos.csproj.AssemblyReference.cache
+D:\AltimaTest\AltimaTest\Datos\obj\Debug\Datos.csproj.CoreCompileInputs.cache
+D:\AltimaTest\AltimaTest\Datos\obj\Debug\Datos.csproj.CopyComplete
+D:\AltimaTest\AltimaTest\Datos\obj\Debug\Datos.dll
+D:\AltimaTest\AltimaTest\Datos\obj\Debug\Datos.pdb

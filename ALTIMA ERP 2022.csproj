@@ -66,6 +66,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="2\Class1.cs" />
+    <Compile Include="CatalogoY\CatalogoY.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CatalogoY\CatalogoY.Designer.cs">
+      <DependentUpon>CatalogoY.cs</DependentUpon>
+    </Compile>
     <Compile Include="Comercial\Muestrario\CatalogoMuestrario.cs">
       <SubType>Form</SubType>
     </Compile>
