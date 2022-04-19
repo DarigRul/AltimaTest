@@ -16,3 +16,9 @@ D:\Desarrollos\A22D\Entidades\obj\Debug\Entidades.csproj.AssemblyReference.cache
 D:\Desarrollos\A22D\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
 D:\Desarrollos\A22D\Entidades\obj\Debug\Entidades.dll
 D:\Desarrollos\A22D\Entidades\obj\Debug\Entidades.pdb
+C:\DesarrolloTest\AltimaTest\Entidades\bin\Debug\Entidades.dll
+C:\DesarrolloTest\AltimaTest\Entidades\bin\Debug\Entidades.pdb
+C:\DesarrolloTest\AltimaTest\Entidades\obj\Debug\Entidades.csproj.AssemblyReference.cache
+C:\DesarrolloTest\AltimaTest\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\DesarrolloTest\AltimaTest\Entidades\obj\Debug\Entidades.dll
+C:\DesarrolloTest\AltimaTest\Entidades\obj\Debug\Entidades.pdb

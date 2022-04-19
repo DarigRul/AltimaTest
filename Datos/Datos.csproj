@@ -50,6 +50,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CatalogoX\DCatalogoX.cs" />
     <Compile Include="Comercial\DPreciosfamiliacomposicion.cs" />
     <Compile Include="Compras\DProveedor.cs" />
     <Compile Include="Compras\DProveedorContacto.cs" />
