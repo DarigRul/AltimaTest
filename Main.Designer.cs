@@ -97,6 +97,7 @@ namespace ALTIMA_ERP_2022
             this.lblMensajes = new DevComponents.DotNetBar.LabelItem();
             this.lblSitio = new DevComponents.DotNetBar.LabelItem();
             this.tNotificaciones = new System.Windows.Forms.Timer(this.components);
+            this.buttonItem1 = new DevComponents.DotNetBar.ButtonItem();
             this.rcAltima.SuspendLayout();
             this.ribbonPanel1.SuspendLayout();
             this.ribbonPanel4.SuspendLayout();
@@ -113,9 +114,9 @@ namespace ALTIMA_ERP_2022
             // 
             this.rcAltima.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
             this.rcAltima.CaptionVisible = true;
+            this.rcAltima.Controls.Add(this.ribbonPanel3);
             this.rcAltima.Controls.Add(this.ribbonPanel1);
             this.rcAltima.Controls.Add(this.ribbonPanel4);
-            this.rcAltima.Controls.Add(this.ribbonPanel3);
             this.rcAltima.Controls.Add(this.ribbonPanel5);
             this.rcAltima.Controls.Add(this.ribbonPanel2);
             this.rcAltima.Dock = System.Windows.Forms.DockStyle.Top;
@@ -182,6 +183,7 @@ namespace ALTIMA_ERP_2022
             // 
             this.ribbonPanel1.StyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
             this.ribbonPanel1.TabIndex = 1;
+            this.ribbonPanel1.Visible = false;
             // 
             // rbMaterial
             // 
@@ -485,7 +487,8 @@ namespace ALTIMA_ERP_2022
             this.itemContainer4.LayoutOrientation = DevComponents.DotNetBar.eOrientation.Vertical;
             this.itemContainer4.Name = "itemContainer4";
             this.itemContainer4.SubItems.AddRange(new DevComponents.DotNetBar.BaseItem[] {
-            this.btnMarcadores});
+            this.btnMarcadores,
+            this.buttonItem1});
             // 
             // 
             // 
@@ -755,7 +758,6 @@ namespace ALTIMA_ERP_2022
             // 
             this.ribbonPanel3.StyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
             this.ribbonPanel3.TabIndex = 3;
-            this.ribbonPanel3.Visible = false;
             // 
             // ribbonBar1
             // 
@@ -771,6 +773,8 @@ namespace ALTIMA_ERP_2022
             this.ribbonBar1.ContainerControlProcessDialogKey = true;
             this.ribbonBar1.Dock = System.Windows.Forms.DockStyle.Left;
             this.ribbonBar1.DragDropSupport = true;
+            this.ribbonBar1.Items.AddRange(new DevComponents.DotNetBar.BaseItem[] {
+            this.buttonItem1});
             this.ribbonBar1.Location = new System.Drawing.Point(257, 0);
             this.ribbonBar1.Name = "ribbonBar1";
             this.ribbonBar1.Size = new System.Drawing.Size(353, 117);
@@ -1022,7 +1026,6 @@ namespace ALTIMA_ERP_2022
             // rtDiseno
             // 
             this.rtDiseno.ButtonStyle = DevComponents.DotNetBar.eButtonStyle.ImageAndText;
-            this.rtDiseno.Checked = true;
             this.rtDiseno.Image = global::ALTIMA_ERP_2022.Properties.Resources.diseño;
             this.rtDiseno.ImageFixedSize = new System.Drawing.Size(16, 16);
             this.rtDiseno.Name = "rtDiseno";
@@ -1059,6 +1062,7 @@ namespace ALTIMA_ERP_2022
             // rtConfiguracion
             // 
             this.rtConfiguracion.ButtonStyle = DevComponents.DotNetBar.eButtonStyle.ImageAndText;
+            this.rtConfiguracion.Checked = true;
             this.rtConfiguracion.Image = ((System.Drawing.Image)(resources.GetObject("rtConfiguracion.Image")));
             this.rtConfiguracion.ImageFixedSize = new System.Drawing.Size(16, 16);
             this.rtConfiguracion.Name = "rtConfiguracion";
@@ -1137,6 +1141,12 @@ namespace ALTIMA_ERP_2022
             // 
             this.tNotificaciones.Interval = 300000;
             this.tNotificaciones.Tick += new System.EventHandler(this.tNotificaciones_Tick);
+            // 
+            // buttonItem1
+            // 
+            this.buttonItem1.Name = "buttonItem1";
+            this.buttonItem1.SubItemsExpandWidth = 14;
+            this.buttonItem1.Text = "buttonItem1";
             // 
             // Main
             // 
@@ -1233,6 +1243,7 @@ namespace ALTIMA_ERP_2022
         public DevComponents.DotNetBar.LabelItem lblMensajes;
         private DevComponents.DotNetBar.ButtonItem btnCatalogoMaquileros;
         private DevComponents.DotNetBar.ButtonItem btnCatalogoEnsambles;
+        private DevComponents.DotNetBar.ButtonItem buttonItem1;
     }
 }
 
