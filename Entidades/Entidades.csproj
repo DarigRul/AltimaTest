@@ -79,6 +79,7 @@
     <Compile Include="Diseno\Telas\EMaterialesProcesoscombo.cs" />
     <Compile Include="Diseno\Telas\EMaterialTipo.cs" />
     <Compile Include="Diseno\Telas\EUnidadesMedidas.cs" />
+    <Compile Include="ECatalogoX\EcatalogoX.cs" />
     <Compile Include="Notificaciones\ENotificacion.cs" />
     <Compile Include="Notificaciones\ENotificacionDestinatario.cs" />
     <Compile Include="Produccion\ELargos.cs" />

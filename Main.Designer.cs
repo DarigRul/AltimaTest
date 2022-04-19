@@ -32,6 +32,13 @@ namespace ALTIMA_ERP_2022
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Main));
             this.rcAltima = new DevComponents.DotNetBar.RibbonControl();
+            this.ribbonPanel3 = new DevComponents.DotNetBar.RibbonPanel();
+            this.ribbonBar1 = new DevComponents.DotNetBar.RibbonBar();
+            this.buttonItem1 = new DevComponents.DotNetBar.ButtonItem();
+            this.rbUsuarios = new DevComponents.DotNetBar.RibbonBar();
+            this.btnUsuarios = new DevComponents.DotNetBar.ButtonItem();
+            this.btnRoles = new DevComponents.DotNetBar.ButtonItem();
+            this.btnPermisos = new DevComponents.DotNetBar.ButtonItem();
             this.ribbonPanel1 = new DevComponents.DotNetBar.RibbonPanel();
             this.rbMaterial = new DevComponents.DotNetBar.RibbonBar();
             this.itemContainer6 = new DevComponents.DotNetBar.ItemContainer();
@@ -69,12 +76,6 @@ namespace ALTIMA_ERP_2022
             this.btnCatalogoTallas = new DevComponents.DotNetBar.ButtonItem();
             this.btnCatalogoLargos = new DevComponents.DotNetBar.ButtonItem();
             this.btnCatalogoMaquileros = new DevComponents.DotNetBar.ButtonItem();
-            this.ribbonPanel3 = new DevComponents.DotNetBar.RibbonPanel();
-            this.ribbonBar1 = new DevComponents.DotNetBar.RibbonBar();
-            this.rbUsuarios = new DevComponents.DotNetBar.RibbonBar();
-            this.btnUsuarios = new DevComponents.DotNetBar.ButtonItem();
-            this.btnRoles = new DevComponents.DotNetBar.ButtonItem();
-            this.btnPermisos = new DevComponents.DotNetBar.ButtonItem();
             this.ribbonPanel5 = new DevComponents.DotNetBar.RibbonPanel();
             this.rbComprasCatalogos = new DevComponents.DotNetBar.RibbonBar();
             this.itemContainer7 = new DevComponents.DotNetBar.ItemContainer();
@@ -97,11 +98,11 @@ namespace ALTIMA_ERP_2022
             this.lblMensajes = new DevComponents.DotNetBar.LabelItem();
             this.lblSitio = new DevComponents.DotNetBar.LabelItem();
             this.tNotificaciones = new System.Windows.Forms.Timer(this.components);
-            this.buttonItem1 = new DevComponents.DotNetBar.ButtonItem();
+            this.buttonItem2 = new DevComponents.DotNetBar.ButtonItem();
             this.rcAltima.SuspendLayout();
+            this.ribbonPanel3.SuspendLayout();
             this.ribbonPanel1.SuspendLayout();
             this.ribbonPanel4.SuspendLayout();
-            this.ribbonPanel3.SuspendLayout();
             this.ribbonPanel5.SuspendLayout();
             this.ribbonPanel2.SuspendLayout();
             this.SuspendLayout();
@@ -116,9 +117,9 @@ namespace ALTIMA_ERP_2022
             this.rcAltima.CaptionVisible = true;
             this.rcAltima.Controls.Add(this.ribbonPanel3);
             this.rcAltima.Controls.Add(this.ribbonPanel1);
-            this.rcAltima.Controls.Add(this.ribbonPanel4);
-            this.rcAltima.Controls.Add(this.ribbonPanel5);
             this.rcAltima.Controls.Add(this.ribbonPanel2);
+            this.rcAltima.Controls.Add(this.ribbonPanel5);
+            this.rcAltima.Controls.Add(this.ribbonPanel4);
             this.rcAltima.Dock = System.Windows.Forms.DockStyle.Top;
             this.rcAltima.ForeColor = System.Drawing.Color.Black;
             this.rcAltima.Items.AddRange(new DevComponents.DotNetBar.BaseItem[] {
@@ -156,6 +157,133 @@ namespace ALTIMA_ERP_2022
             this.rcAltima.TabGroupsVisible = true;
             this.rcAltima.TabIndex = 0;
             this.rcAltima.Text = "ribbonControl1";
+            // 
+            // ribbonPanel3
+            // 
+            this.ribbonPanel3.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.ribbonPanel3.Controls.Add(this.ribbonBar1);
+            this.ribbonPanel3.Controls.Add(this.rbUsuarios);
+            this.ribbonPanel3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.ribbonPanel3.Location = new System.Drawing.Point(0, 56);
+            this.ribbonPanel3.Name = "ribbonPanel3";
+            this.ribbonPanel3.Padding = new System.Windows.Forms.Padding(3, 0, 3, 2);
+            this.ribbonPanel3.Size = new System.Drawing.Size(1300, 119);
+            // 
+            // 
+            // 
+            this.ribbonPanel3.Style.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            // 
+            // 
+            // 
+            this.ribbonPanel3.StyleMouseDown.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            // 
+            // 
+            // 
+            this.ribbonPanel3.StyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.ribbonPanel3.TabIndex = 3;
+            // 
+            // ribbonBar1
+            // 
+            this.ribbonBar1.AutoOverflowEnabled = true;
+            // 
+            // 
+            // 
+            this.ribbonBar1.BackgroundMouseOverStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            // 
+            // 
+            // 
+            this.ribbonBar1.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.ribbonBar1.ContainerControlProcessDialogKey = true;
+            this.ribbonBar1.Dock = System.Windows.Forms.DockStyle.Left;
+            this.ribbonBar1.DragDropSupport = true;
+            this.ribbonBar1.Items.AddRange(new DevComponents.DotNetBar.BaseItem[] {
+            this.buttonItem2});
+            this.ribbonBar1.Location = new System.Drawing.Point(257, 0);
+            this.ribbonBar1.Name = "ribbonBar1";
+            this.ribbonBar1.Size = new System.Drawing.Size(353, 117);
+            this.ribbonBar1.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.ribbonBar1.TabIndex = 1;
+            this.ribbonBar1.Text = "ribbonBar1";
+            // 
+            // 
+            // 
+            this.ribbonBar1.TitleStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            // 
+            // 
+            // 
+            this.ribbonBar1.TitleStyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            // 
+            // buttonItem1
+            // 
+            this.buttonItem1.Name = "buttonItem1";
+            this.buttonItem1.SubItemsExpandWidth = 14;
+            this.buttonItem1.Text = "buttonItem1";
+            // 
+            // rbUsuarios
+            // 
+            this.rbUsuarios.AutoOverflowEnabled = true;
+            // 
+            // 
+            // 
+            this.rbUsuarios.BackgroundMouseOverStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            // 
+            // 
+            // 
+            this.rbUsuarios.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.rbUsuarios.ContainerControlProcessDialogKey = true;
+            this.rbUsuarios.Dock = System.Windows.Forms.DockStyle.Left;
+            this.rbUsuarios.DragDropSupport = true;
+            this.rbUsuarios.Items.AddRange(new DevComponents.DotNetBar.BaseItem[] {
+            this.btnUsuarios,
+            this.btnRoles,
+            this.btnPermisos});
+            this.rbUsuarios.Location = new System.Drawing.Point(3, 0);
+            this.rbUsuarios.Name = "rbUsuarios";
+            this.rbUsuarios.Size = new System.Drawing.Size(254, 117);
+            this.rbUsuarios.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.rbUsuarios.TabIndex = 0;
+            this.rbUsuarios.Text = "Usuarios, Roles y Permisos";
+            // 
+            // 
+            // 
+            this.rbUsuarios.TitleStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            // 
+            // 
+            // 
+            this.rbUsuarios.TitleStyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            // 
+            // btnUsuarios
+            // 
+            this.btnUsuarios.ButtonStyle = DevComponents.DotNetBar.eButtonStyle.ImageAndText;
+            this.btnUsuarios.Image = global::ALTIMA_ERP_2022.Properties.Resources.usuarios;
+            this.btnUsuarios.ImageFixedSize = new System.Drawing.Size(64, 64);
+            this.btnUsuarios.ImagePosition = DevComponents.DotNetBar.eImagePosition.Top;
+            this.btnUsuarios.Name = "btnUsuarios";
+            this.btnUsuarios.SubItemsExpandWidth = 14;
+            this.btnUsuarios.Text = "Usuarios";
+            this.btnUsuarios.Click += new System.EventHandler(this.btnUsuarios_Click);
+            // 
+            // btnRoles
+            // 
+            this.btnRoles.ButtonStyle = DevComponents.DotNetBar.eButtonStyle.ImageAndText;
+            this.btnRoles.Image = global::ALTIMA_ERP_2022.Properties.Resources.roles;
+            this.btnRoles.ImageFixedSize = new System.Drawing.Size(64, 64);
+            this.btnRoles.ImagePosition = DevComponents.DotNetBar.eImagePosition.Top;
+            this.btnRoles.Name = "btnRoles";
+            this.btnRoles.SubItemsExpandWidth = 14;
+            this.btnRoles.Text = "Roles";
+            this.btnRoles.Click += new System.EventHandler(this.btnRoles_Click);
+            // 
+            // btnPermisos
+            // 
+            this.btnPermisos.ButtonStyle = DevComponents.DotNetBar.eButtonStyle.ImageAndText;
+            this.btnPermisos.Image = global::ALTIMA_ERP_2022.Properties.Resources.permisos;
+            this.btnPermisos.ImageFixedSize = new System.Drawing.Size(64, 64);
+            this.btnPermisos.ImagePosition = DevComponents.DotNetBar.eImagePosition.Top;
+            this.btnPermisos.Name = "btnPermisos";
+            this.btnPermisos.SubItemsExpandWidth = 14;
+            this.btnPermisos.Text = "Permisos";
+            this.btnPermisos.Click += new System.EventHandler(this.btnPermisos_Click);
             // 
             // ribbonPanel1
             // 
@@ -735,127 +863,6 @@ namespace ALTIMA_ERP_2022
             this.btnCatalogoMaquileros.Text = "Catálogo de maquileros";
             this.btnCatalogoMaquileros.Click += new System.EventHandler(this.btnCatalogoMaquileros_Click);
             // 
-            // ribbonPanel3
-            // 
-            this.ribbonPanel3.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.ribbonPanel3.Controls.Add(this.ribbonBar1);
-            this.ribbonPanel3.Controls.Add(this.rbUsuarios);
-            this.ribbonPanel3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.ribbonPanel3.Location = new System.Drawing.Point(0, 56);
-            this.ribbonPanel3.Name = "ribbonPanel3";
-            this.ribbonPanel3.Padding = new System.Windows.Forms.Padding(3, 0, 3, 2);
-            this.ribbonPanel3.Size = new System.Drawing.Size(1300, 119);
-            // 
-            // 
-            // 
-            this.ribbonPanel3.Style.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            // 
-            // 
-            // 
-            this.ribbonPanel3.StyleMouseDown.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            // 
-            // 
-            // 
-            this.ribbonPanel3.StyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.ribbonPanel3.TabIndex = 3;
-            // 
-            // ribbonBar1
-            // 
-            this.ribbonBar1.AutoOverflowEnabled = true;
-            // 
-            // 
-            // 
-            this.ribbonBar1.BackgroundMouseOverStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            // 
-            // 
-            // 
-            this.ribbonBar1.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.ribbonBar1.ContainerControlProcessDialogKey = true;
-            this.ribbonBar1.Dock = System.Windows.Forms.DockStyle.Left;
-            this.ribbonBar1.DragDropSupport = true;
-            this.ribbonBar1.Items.AddRange(new DevComponents.DotNetBar.BaseItem[] {
-            this.buttonItem1});
-            this.ribbonBar1.Location = new System.Drawing.Point(257, 0);
-            this.ribbonBar1.Name = "ribbonBar1";
-            this.ribbonBar1.Size = new System.Drawing.Size(353, 117);
-            this.ribbonBar1.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.ribbonBar1.TabIndex = 1;
-            this.ribbonBar1.Text = "ribbonBar1";
-            // 
-            // 
-            // 
-            this.ribbonBar1.TitleStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            // 
-            // 
-            // 
-            this.ribbonBar1.TitleStyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            // 
-            // rbUsuarios
-            // 
-            this.rbUsuarios.AutoOverflowEnabled = true;
-            // 
-            // 
-            // 
-            this.rbUsuarios.BackgroundMouseOverStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            // 
-            // 
-            // 
-            this.rbUsuarios.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.rbUsuarios.ContainerControlProcessDialogKey = true;
-            this.rbUsuarios.Dock = System.Windows.Forms.DockStyle.Left;
-            this.rbUsuarios.DragDropSupport = true;
-            this.rbUsuarios.Items.AddRange(new DevComponents.DotNetBar.BaseItem[] {
-            this.btnUsuarios,
-            this.btnRoles,
-            this.btnPermisos});
-            this.rbUsuarios.Location = new System.Drawing.Point(3, 0);
-            this.rbUsuarios.Name = "rbUsuarios";
-            this.rbUsuarios.Size = new System.Drawing.Size(254, 117);
-            this.rbUsuarios.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.rbUsuarios.TabIndex = 0;
-            this.rbUsuarios.Text = "Usuarios, Roles y Permisos";
-            // 
-            // 
-            // 
-            this.rbUsuarios.TitleStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            // 
-            // 
-            // 
-            this.rbUsuarios.TitleStyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            // 
-            // btnUsuarios
-            // 
-            this.btnUsuarios.ButtonStyle = DevComponents.DotNetBar.eButtonStyle.ImageAndText;
-            this.btnUsuarios.Image = global::ALTIMA_ERP_2022.Properties.Resources.usuarios;
-            this.btnUsuarios.ImageFixedSize = new System.Drawing.Size(64, 64);
-            this.btnUsuarios.ImagePosition = DevComponents.DotNetBar.eImagePosition.Top;
-            this.btnUsuarios.Name = "btnUsuarios";
-            this.btnUsuarios.SubItemsExpandWidth = 14;
-            this.btnUsuarios.Text = "Usuarios";
-            this.btnUsuarios.Click += new System.EventHandler(this.btnUsuarios_Click);
-            // 
-            // btnRoles
-            // 
-            this.btnRoles.ButtonStyle = DevComponents.DotNetBar.eButtonStyle.ImageAndText;
-            this.btnRoles.Image = global::ALTIMA_ERP_2022.Properties.Resources.roles;
-            this.btnRoles.ImageFixedSize = new System.Drawing.Size(64, 64);
-            this.btnRoles.ImagePosition = DevComponents.DotNetBar.eImagePosition.Top;
-            this.btnRoles.Name = "btnRoles";
-            this.btnRoles.SubItemsExpandWidth = 14;
-            this.btnRoles.Text = "Roles";
-            this.btnRoles.Click += new System.EventHandler(this.btnRoles_Click);
-            // 
-            // btnPermisos
-            // 
-            this.btnPermisos.ButtonStyle = DevComponents.DotNetBar.eButtonStyle.ImageAndText;
-            this.btnPermisos.Image = global::ALTIMA_ERP_2022.Properties.Resources.permisos;
-            this.btnPermisos.ImageFixedSize = new System.Drawing.Size(64, 64);
-            this.btnPermisos.ImagePosition = DevComponents.DotNetBar.eImagePosition.Top;
-            this.btnPermisos.Name = "btnPermisos";
-            this.btnPermisos.SubItemsExpandWidth = 14;
-            this.btnPermisos.Text = "Permisos";
-            this.btnPermisos.Click += new System.EventHandler(this.btnPermisos_Click);
-            // 
             // ribbonPanel5
             // 
             this.ribbonPanel5.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
@@ -1142,11 +1149,12 @@ namespace ALTIMA_ERP_2022
             this.tNotificaciones.Interval = 300000;
             this.tNotificaciones.Tick += new System.EventHandler(this.tNotificaciones_Tick);
             // 
-            // buttonItem1
+            // buttonItem2
             // 
-            this.buttonItem1.Name = "buttonItem1";
-            this.buttonItem1.SubItemsExpandWidth = 14;
-            this.buttonItem1.Text = "buttonItem1";
+            this.buttonItem2.Name = "buttonItem2";
+            this.buttonItem2.SubItemsExpandWidth = 14;
+            this.buttonItem2.Text = "buttonItem2";
+            this.buttonItem2.Click += new System.EventHandler(this.buttonItem2_Click);
             // 
             // Main
             // 
@@ -1166,9 +1174,9 @@ namespace ALTIMA_ERP_2022
             this.Load += new System.EventHandler(this.Main_Load);
             this.rcAltima.ResumeLayout(false);
             this.rcAltima.PerformLayout();
+            this.ribbonPanel3.ResumeLayout(false);
             this.ribbonPanel1.ResumeLayout(false);
             this.ribbonPanel4.ResumeLayout(false);
-            this.ribbonPanel3.ResumeLayout(false);
             this.ribbonPanel5.ResumeLayout(false);
             this.ribbonPanel2.ResumeLayout(false);
             this.ResumeLayout(false);
@@ -1244,6 +1252,7 @@ namespace ALTIMA_ERP_2022
         private DevComponents.DotNetBar.ButtonItem btnCatalogoMaquileros;
         private DevComponents.DotNetBar.ButtonItem btnCatalogoEnsambles;
         private DevComponents.DotNetBar.ButtonItem buttonItem1;
+        private DevComponents.DotNetBar.ButtonItem buttonItem2;
     }
 }
 

@@ -66,6 +66,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="2\Class1.cs" />
+    <Compile Include="CatalogoX\CatalogoX.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CatalogoX\CatalogoX.Designer.cs">
+      <DependentUpon>CatalogoX.cs</DependentUpon>
+    </Compile>
     <Compile Include="Comercial\Muestrario\CatalogoMuestrario.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -486,6 +492,9 @@
     </Compile>
     <Compile Include="Utilitarios\SuperGridAnidadoConfiguracion.cs" />
     <Compile Include="Utilitarios\supergridToDataTable.cs" />
+    <EmbeddedResource Include="CatalogoX\CatalogoX.resx">
+      <DependentUpon>CatalogoX.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Comercial\Muestrario\CatalogoMuestrario.resx">
       <DependentUpon>CatalogoMuestrario.cs</DependentUpon>
     </EmbeddedResource>
