@@ -1145,6 +1145,7 @@ namespace ALTIMA_ERP_2022
             // buttonItem1
             // 
             this.buttonItem1.Name = "buttonItem1";
+            this.buttonItem1.SubItemsExpandWidth = 14;
             this.buttonItem1.Text = "buttonItem1";
             // 
             // Main
