@@ -97,6 +97,7 @@ namespace ALTIMA_ERP_2022
             this.lblMensajes = new DevComponents.DotNetBar.LabelItem();
             this.lblSitio = new DevComponents.DotNetBar.LabelItem();
             this.tNotificaciones = new System.Windows.Forms.Timer(this.components);
+            this.buttonItem1 = new DevComponents.DotNetBar.ButtonItem();
             this.rcAltima.SuspendLayout();
             this.ribbonPanel1.SuspendLayout();
             this.ribbonPanel4.SuspendLayout();
@@ -485,7 +486,8 @@ namespace ALTIMA_ERP_2022
             this.itemContainer4.LayoutOrientation = DevComponents.DotNetBar.eOrientation.Vertical;
             this.itemContainer4.Name = "itemContainer4";
             this.itemContainer4.SubItems.AddRange(new DevComponents.DotNetBar.BaseItem[] {
-            this.btnMarcadores});
+            this.btnMarcadores,
+            this.buttonItem1});
             // 
             // 
             // 
@@ -1138,6 +1140,11 @@ namespace ALTIMA_ERP_2022
             this.tNotificaciones.Interval = 300000;
             this.tNotificaciones.Tick += new System.EventHandler(this.tNotificaciones_Tick);
             // 
+            // buttonItem1
+            // 
+            this.buttonItem1.Name = "buttonItem1";
+            this.buttonItem1.Text = "buttonItem1";
+            // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1233,6 +1240,7 @@ namespace ALTIMA_ERP_2022
         public DevComponents.DotNetBar.LabelItem lblMensajes;
         private DevComponents.DotNetBar.ButtonItem btnCatalogoMaquileros;
         private DevComponents.DotNetBar.ButtonItem btnCatalogoEnsambles;
+        private DevComponents.DotNetBar.ButtonItem buttonItem1;
     }
 }
 
