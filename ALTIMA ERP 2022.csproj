@@ -102,6 +102,7 @@
     <Compile Include="Compras\CatProveedores\ProveedoresAM.Designer.cs">
       <DependentUpon>ProveedoresAM.cs</DependentUpon>
     </Compile>
+    <Compile Include="Darig\Class1.cs" />
     <Compile Include="Diseno\CatCalidad\Calidad.cs">
       <SubType>Form</SubType>
     </Compile>
